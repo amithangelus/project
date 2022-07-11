@@ -1,0 +1,32 @@
+
+<h1 style="color:#ff0000 ;>
+div{}
+.row{
+  height:0;
+  width:10;
+  border:30px;
+  border:solid;
+  margin-block-start:0px;
+  margin-block-end:0px;
+}
+.top-container{
+  background-color: #E4F9F5;
+  margin:auto;
+  width:50%;
+  border:3px;
+  padding:10px;
+}
+
+.image.right{
+  width:50%;
+  height:59%;
+}
+
+@keyframes marquee {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>MOVIE BOOKING</title>
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="icon" href="/favicon.png"/>
+
+
+ </head>
+ <body>
+    <style>
+            .gfg {
+                width:auto;
+                text-align:center;
+                padding:20px;
+            }
+            </style>
+    <div style="text-align: center;"><img src="20.png" alt="image21"; width="50%"></div>
+
+    <div class="row">
+    <style>
+       p{text-align: left;}
+   </style>
+   <p style="font-size:170%;text-align:centre;color:red; background-color:black;">  Currently playing movies</p>
+   <marquee vspace="25" bgcolor="black" direction="up" width="300" height="700" style="border" transform: translateX(0);>
+     <img src="images/movies1.png" alt="movie1-image" class="leftside">
+    <img src="images/movies2.png" alt="movie2-image" class="leftside">
+    <img src="images/movies3.png" alt="movie3-image" class="leftside">
+    <img src="images/movies4.png" alt="movie4-image" class="leftside">
+    <img src="images/movies1.png" alt="movie1-image" class="leftside">
+   <img src="images/movies2.png" alt="movie2-image" class="leftside">
+   <img src="images/movies3.png" alt="movie3-image" class="leftside">
+   <img src="images/movies4.png" alt="movie4-image" class="leftside">
+  <style>
+   img.leftside{
+       width:100%;
+       height:70%;
+       object-fit:cover;
+   }</style>
+</marquee>
+
+</div>
+<div class="rightside">
+  <p style="font-size:170%;background-color:#F9F9F9; text-align: right;color: red;">Upcoming Anticipated Movies </p>
+  <div style="position:absolute; left:1220px;text-align: center;"><img src="images/movies6.png" alt="imagemovies"; width="140%";height="60";></div>
+  <div style="position:absolute;top:900px;left:1207px;text-align: center;"><img src="images/movies5.png" alt="imagemovies"; width="95%";height="60";></div>
+</div>
+<div class="top-container">
+<h1>YOUR MOVIE BOOKING BUDDY</h1>
+      <style>
+        h1{text-align: center;
+        color:red;
+      }
+    </style>
+  </div>
+<div>
+      <h2 style="color:green"> lets get started</h2>
+      <label for="city"><h3 style="font-size:110%";</h3>CHOOSE YOUR CITY</label>
+        <style>
+          label{text-align: center;
+          color:blue;
+        }
+      </style>
+<form name="CITY">
+<select name="CITY" id="CITY">
+  <option value="nothing" selected="selected">Select a city</option>
+  <option value="AGRA">AGRA</option>
+  <option value="AIZWAL">AIZWAL</option>
+  <option value="AGARTALA">AGARTALA</option>
+  <option value="AMARAVATI">AMARAVATI</option>
+  <option value="BENGALURU">BENGALURU</option>
+  <option value="BHUBANESWAR">BHUBANESWAR</option>
+  <option value="CHANDIGARH">CHANDIGARH</option>
+  <option value="CHENNAI">CHENNAI</option>
+  <optio value="DELHI">DELHI</option>
+  <option value="DEHRADUN">DEHRADUN</option>
+  <option value="HYDERABAD">HYDERABAD</option>
+  <option value="file:///Users/amithantonyjohn/Documents/MOVIE%20TICKET%20BOOKING/jaipur.html">JAIPUR</option>
+  <option value="KOLKATA">KOLKATA</option>
+  <option value="LUCKNOW">LUCKNOW</option>
+  <option value="MUMBAI">MUMBAI</option>
+  <option value="PANAJI">PANAJI</option>
+  <option value="RAIPUR">RAIPUR</option>
+  <option value="SHIMLA">SHIMLA</option>
+  <option value="TRIVANDRUM">TRIVANDRUM</option>
+</select>
+</form>
+<script type="text/javascript">
+ var urlMenu=document.getElementsById('CITY');
+ urlMenu.onchange=function() {
+   var userOption=this.options{this.selectedIndex};
+   if (userOption.value !="nothing"){
+     window.open(userOption.value,"MOVIE BOOKING SITE","");
+
+   }
+ }
+ </script>
+    <style>
+        h2{text-align: center;}
+
+    </style>
+
+    </div>
+<div style="position:absolute; left:110px;text-align: center;"><img src="images/movies.png" alt="imagemovies"; width="60%";height="60";></div>
+
+
+
+  </body>
+</html>
